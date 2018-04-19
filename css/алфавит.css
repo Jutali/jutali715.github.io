@@ -1,0 +1,82 @@
+body {
+background-image: url(4.jpg);
+background-image: fixed; 
+background-position: center top; 
+background-attachment: fixed; 
+background-color: blueviolet; 
+}  
+
+H1 { 
+color: rgba(126, 0, 0, 0.815); 
+font-size: 50px; 
+font-style: oblique; 
+text-align: center;
+text-decoration: underline;
+font-weight:bold;
+/*border-style: double;
+border-color: black;
+border-width: 10px;*/
+} 
+
+H2{
+    color: rgba(126, 0, 0, 0.815); 
+    font-size: 36px;
+    font-style: oblique; 
+    text-align: center;  
+    font-weight:bold;
+}
+
+H3{
+    color: black; 
+    font-size: 24px;
+    font-style: oblique;  
+    font-weight:bold;
+    padding-left:25%;
+}
+tr{ 
+    text-align: center;
+}
+tr:nth-child(odd) {
+    font-size: 24px;
+    background-color: rgb(250, 173, 173);
+}
+ 
+tr:nth-child(even) {
+    font-size: 24px;
+    background-color: rgb(253, 218, 223);
+}
+
+tr:first-child{ 
+    background-color : rgb(255, 125, 143);
+    font-size: 28px;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+
+table:first-child{
+    position: relative;
+}
+
+tr.upr{
+    background-color : white;
+    font-size: 20px;
+    text-align: left;
+}
+tr.upr:first-child{
+    font-size: 22px;
+    text-align: left;
+}
+
+td.otv {
+    color:white;
+}
+td.otv:hover{
+    color:black;
+}
+
+audio{
+    width: 15px;
+    size: 30%;
+}
+
